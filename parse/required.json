@@ -1,0 +1,613 @@
+[
+    {
+      "SegmentDelimiter": "\n",
+      "DataElementDelimiter": "*",
+      "ISA": {
+        "AuthorizationInformationQualifier_1": "00",
+        "AuthorizationInformation_2": "          ",
+        "SecurityInformationQualifier_3": "00",
+        "SecurityInformation_4": "          ",
+        "SenderIDQualifier_5": "ZZ",
+        "InterchangeSenderID_6": "MCKMASTERS     ",
+        "ReceiverIDQualifier_7": "ZZ",
+        "InterchangeReceiverID_8": "TESTPARTNER    ",
+        "InterchangeDate_9": "220318",
+        "InterchangeTime_10": "1905",
+        "InterchangeControlStandardsIdentifier_11": "U",
+        "InterchangeControlVersionNumber_12": "00401",
+        "InterchangeControlNumber_13": "200294224",
+        "AcknowledgementRequested_14": "0",
+        "UsageIndicator_15": "P",
+        "ComponentElementSeparator_16": "~"
+      },
+      "Groups": [
+        {
+          "GS": {
+            "CodeIdentifyingInformationType_1": "SH",
+            "SenderIDCode_2": "MCKMASTERS",
+            "ReceiverIDCode_3": "TESTPARTNER",
+            "Date_4": "20220318",
+            "Time_5": "1905",
+            "GroupControlNumber_6": "200005082",
+            "TransactionTypeCode_7": "X",
+            "VersionAndRelease_8": "004010"
+          },
+          "Transactions": [
+            {
+              "ST": {
+                "TransactionSetIdentifierCode_01": "856",
+                "TransactionSetControlNumber_02": "36463"
+              },
+              "BSN": {
+                "TransactionSetPurposeCode_01": "00",
+                "ShipmentIdentification_02": "7331272356",
+                "Date_03": "20220318",
+                "Time_04": "1423",
+                "HierarchicalStructureCode_05": "0001",
+                "TransactionTypeCode_06": "AS"
+              },
+              "HLLoop": [
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "1",
+                    "HierarchicalLevelCode_03": "S",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "TD1": [
+                    {
+                      "PackagingCode_01": "MIX71",
+                      "LadingQuantity_02": "3"
+                    }
+                  ],
+                  "TD5": [
+                    {
+                      "RoutingSequenceCode_01": "O",
+                      "IdentificationCodeQualifier_02": "2",
+                      "IdentificationCode_03": "MCK",
+                      "TransportationMethodTypeCode_04": "M",
+                      "ShipmentOrderStatusCode_06": "CC"
+                    }
+                  ],
+                  "REF": [
+                    {
+                      "ReferenceIdentificationQualifier_01": "BM",
+                      "ReferenceIdentification_02": "7331272356"
+                    }
+                  ],
+                  "DTM": [
+                    {
+                      "DateTimeQualifier_01": "011",
+                      "Date_02": "20220318"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "SF",
+                        "Name_02": "MEMPHIS DC 8149",
+                        "IdentificationCodeQualifier_03": "11",
+                        "IdentificationCode_04": "PM0001951"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "4836 SOUTHRIDGE BLVD."
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "MEMPHIS",
+                        "StateorProvinceCode_02": "TN",
+                        "PostalCode_03": "38141"
+                      }
+                    },
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "ST",
+                        "Name_02": "FF Cust Name",
+                        "IdentificationCodeQualifier_03": "91",
+                        "IdentificationCode_04": "123456"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "123 Lois Lane"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "OMAHA",
+                        "StateorProvinceCode_02": "NE",
+                        "PostalCode_03": "68106"
+                      }
+                    },
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "BY",
+                        "Name_02": "FF Cust Name",
+                        "IdentificationCodeQualifier_03": "91",
+                        "IdentificationCode_04": "123456"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "123 Lois Lane"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "OMAHA",
+                        "StateorProvinceCode_02": "NE",
+                        "PostalCode_03": "68106"
+                      }
+                    },
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "SE",
+                        "Name_02": "MASTERS DRUG COMPANY, INC",
+                        "IdentificationCodeQualifier_03": "12",
+                        "IdentificationCode_04": "8009827922"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "3600 PHARMA WAY"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "MASON",
+                        "StateorProvinceCode_02": "OH",
+                        "PostalCode_03": "45036"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "FreeFormMessageText_05": "Seller has complied with each applicable subsection of FDCA Sec. 581(27)(A)-(G).",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "TS"
+                    },
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "FreeFormMessageText_05": "As indicated below, product was purchased directly from the manufacturer, manufacturer s exclusive distributor or repackager who purchased directly from a manufacturer.",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DPS"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "2",
+                    "HierarchicalParentIDNumber_02": "1",
+                    "HierarchicalLevelCode_03": "O",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "PRF": {
+                    "PurchaseOrderNumber_01": "TESTPONUM123",
+                    "Date_04": "20220321"
+                  },
+                  "REF": [
+                    {
+                      "ReferenceIdentificationQualifier_01": "IV",
+                      "ReferenceIdentification_02": "7331272356"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "3",
+                    "HierarchicalParentIDNumber_02": "2",
+                    "HierarchicalLevelCode_03": "P",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "MAN": [
+                    {
+                      "MarksandNumbersQualifier_01": "GM",
+                      "MarksandNumbers_02": "2288054"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "4",
+                    "HierarchicalParentIDNumber_02": "3",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "1",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "3585163",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "43598055230"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "EA"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "LAMOTRIGINE ODT 100MG DR R 30@"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "DR REDDYS LABORATORIES  @"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "107 COLLEGE ROAD EAST"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "PRINCETON",
+                        "StateorProvinceCode_02": "NJ",
+                        "PostalCode_03": "08540"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "5",
+                    "HierarchicalParentIDNumber_02": "3",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "3",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "3645074",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "50111078810"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "EA"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "AZITHROMY TAB 500MG PLIV   30@"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "TEVA PHARMACEUTICALS    @"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "1090 HORSHAM ROAD"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "NORTH WALES",
+                        "StateorProvinceCode_02": "PA",
+                        "PostalCode_03": "19454-1090"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "6",
+                    "HierarchicalParentIDNumber_02": "3",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "5",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "1525203",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "21922000909"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "EA"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "DICLOFEN SOD T GEL1% ENC100GM@"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "ENCUBE ETHICALS INC@"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "200 MEREDITH DRIVE STE 10"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "DURHAM",
+                        "StateorProvinceCode_02": "NC",
+                        "PostalCode_03": "27713"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "7",
+                    "HierarchicalParentIDNumber_02": "3",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "7",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "3480811",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "50742026103"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "EA"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "NIFEDIPINE ER TB 60MG ING 300@"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "INGENUS PHARMACEUTICALS L"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "4190 MILLENIA BLVD"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "ORLANDO",
+                        "StateorProvinceCode_02": "FL",
+                        "PostalCode_03": "32839"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "8",
+                    "HierarchicalParentIDNumber_02": "3",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "8",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "1807536",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "62756018513"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "EA"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "OXCARBAZEP TAB 600MG SUN  500@"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "SUN PHARMACEUTICALS @"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "270 PROSPECT PLAINS RD"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "CRANBURY",
+                        "StateorProvinceCode_02": "NJ",
+                        "PostalCode_03": "08512"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "9",
+                    "HierarchicalParentIDNumber_02": "2",
+                    "HierarchicalLevelCode_03": "P",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "MAN": [
+                    {
+                      "MarksandNumbersQualifier_01": "GM",
+                      "MarksandNumbers_02": "2288055"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "10",
+                    "HierarchicalParentIDNumber_02": "9",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "2",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "1541580",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "62559070130"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "EA"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "S EZET SIM TB10 MG 20MG MST 30"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "ANI PHARMACEUTICALS INC"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "210 MAIN STREET WEST"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "BAUDETTE",
+                        "StateorProvinceCode_02": "MN",
+                        "PostalCode_03": "56623"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "11",
+                    "HierarchicalParentIDNumber_02": "2",
+                    "HierarchicalLevelCode_03": "P",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "MAN": [
+                    {
+                      "MarksandNumbersQualifier_01": "GM",
+                      "MarksandNumbers_02": "2288056"
+                    }
+                  ]
+                },
+                {
+                  "HL": {
+                    "HierarchicalIDNumber_01": "12",
+                    "HierarchicalParentIDNumber_02": "11",
+                    "HierarchicalLevelCode_03": "I",
+                    "HierarchicalChildCode_04": "1"
+                  },
+                  "LIN": {
+                    "AssignedIdentification_01": "4",
+                    "ProductServiceIDQualifier_02": "VN",
+                    "ProductServiceID_03": "1580547",
+                    "ProductServiceIDQualifier_04": "N4",
+                    "ProductServiceID_05": "75834011529"
+                  },
+                  "SN1": {
+                    "NumberofUnitsShipped_02": "1",
+                    "UnitorBasisforMeasurementCode_03": "CT"
+                  },
+                  "PID": [
+                    {
+                      "ItemDescriptionType_01": "F",
+                      "Description_05": "S DROSPIR ETH 3 .03MG MST 3X28"
+                    }
+                  ],
+                  "N1Loop": [
+                    {
+                      "N1": {
+                        "EntityIdentifierCode_01": "MF",
+                        "Name_02": "NIVAGEN PHARMACEUTICALS"
+                      },
+                      "N3": [
+                        {
+                          "AddressInformation_01": "3050 FITE CIRCLE   SUITE"
+                        }
+                      ],
+                      "N4": {
+                        "CityName_01": "SACRAMENTO",
+                        "StateorProvinceCode_02": "CA",
+                        "PostalCode_03": "95827-1818"
+                      }
+                    }
+                  ],
+                  "YNQ": [
+                    {
+                      "YesNoConditionorResponseCode_02": "Y",
+                      "CodeListQualifierCode_08": "99",
+                      "IndustryCode_09": "DIR"
+                    }
+                  ]
+                }
+              ],
+              "CTT": {
+                "NumberofLineItems_01": "12"
+              },
+              "SE": {
+                "NumberofIncludedSegments_01": "88",
+                "TransactionSetControlNumber_02": "36463"
+              },
+              "Model": "EdiNation.X12.ASC.004010"
+            }
+          ],
+          "GETrailers": [
+            {
+              "NumberOfIncludedSets_1": "100",
+              "GroupControlNumber_2": "200005082"
+            }
+          ]
+        }
+      ],
+      "IEATrailers": [
+        {
+          "NumberOfIncludedGroups_1": "1",
+          "InterchangeControlNumber_2": "200294224"
+        }
+      ],
+      "Result": {
+        "LastIndex": 92,
+        "Details": [],
+        "Status": "success"
+      }
+    }
+  ]
