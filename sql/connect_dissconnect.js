@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'rootuser208',
+    password: 'rootuser(your password)',
     database: 'EDI_db'
 });
 
